@@ -1,0 +1,5 @@
+__pycache__/
+.mypy_cache/
+tests/*.osm
+*.egg-info
+v1.0-mini.tgz*

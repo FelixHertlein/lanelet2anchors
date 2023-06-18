@@ -1,0 +1,25 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+    },
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.egg-info": true
+    },
+    "python.autoComplete.extraPaths": [
+        "./src"
+    ],
+    "python.analysis.extraPaths": [
+        "./src"
+    ],
+    "python.linting.mypyEnabled": true,
+    "notebook.output.textLineLimit": 200
+}

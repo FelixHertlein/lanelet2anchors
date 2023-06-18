@@ -3,7 +3,6 @@
 
 This package enables the generation of diverse map-based anchor paths for a given lanelet or vehicle pose. It was developed as part of our paper <a href='https://openaccess.thecvf.com/content/CVPR2023W/E2EAD/html/Naumann_Lanelet2_for_nuScenes_Enabling_Spatial_Semantic_Relationships_and_Diverse_Map-Based_CVPRW_2023_paper.html'>Lanelet2 for nuScenes: Enabling Spatial Semantic Relationships and Diverse Map-based Anchor Paths</a>. For details check our <a href='https://felixhertlein.github.io/lanelet4nuscenes'>project page</a>.
 
-
 ## Installation
 
 Use Python >= 3.8 and `pip` to install
@@ -14,7 +13,7 @@ pip install lanelet2anchors
 
 ## Usage
 
-Check the [notebooks](docs/notebooks/example.ipynb) in the [documentation](/) for details and examples.
+Check the [notebooks](notebooks/example.ipynb) in the [documentation](/) for details and examples.
 
 ### Generate anchors for given vehicle
 ```python

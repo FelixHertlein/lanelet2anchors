@@ -1,0 +1,23 @@
+{
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-toolsai.jupyter",
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-python.black-formatter",
+                "garytyler.darcula-pycharm",
+                "ms-python.isort",
+                "matangover.mypy",
+                "njpwerner.autodocstring"
+            ]
+        }
+    },
+    "mounts": [
+        "source=/data/nuscenes,target=/workspaces/nuscenes-anchor-generation/data/nuscenes,type=bind,consistency=cached"
+    ],
+    "postCreateCommand": "pip install -e .[dev]"
+}

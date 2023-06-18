@@ -1,0 +1,36 @@
+site_name: lanelet2anchors
+site_url: https://example.com/
+plugins:
+  - mkdocs-jupyter
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: google
+            docstring_section_style: spacy
+            show_source: False
+            merge_init_into_class: True
+nav:
+  - Home: index.md
+  - Examples:
+    - Example 1: ./notebooks/example.ipynb 
+    - Example 2: ./notebooks/example_nusc.ipynb
+  - API References:
+    - Anchor Generator: ./api/AnchorGenerator.md
+    - Tools: 
+      - find_vehicle_ahead: ./api/tools/find_vehicle_ahead.md
+      - anchor2linestring: ./api/tools/anchor2linestring.md
+      - anchor2polygon: ./api/tools/anchor2polygon.md
+      - visualize [nuScenes only]: ./api/tools/visualize.md
+    - Entities:
+      - Anchor: ./api/entities/anchor.md
+      - Vehicle: ./api/entities/vehicle.md
+      - VehicleAhead: ./api/entities/vehicle_ahead.md
+      - VehiclePose: ./api/entities/vehicle_pose.md
+      - LaneletMatchProb: ./api/entities/lanelet_match_prob.md
+      - LaneletAnchorMatches: ./api/entities/lanelet_anchor_matches.md
+      - LaneletMatchingConfig: ./api/entities/lanelet_matching_config.md
+      - LaneletMatchingProbConfig: ./api/entities/lanelet_matching_prob_config.md
+
+         
+theme: readthedocs
