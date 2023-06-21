@@ -1,5 +1,6 @@
-<a href="https://pypi.org/project/lanelet2anchors/"><img src="https://img.shields.io/pypi/dw/lanelet2anchors"></a>
 [![conference](https://img.shields.io/badge/paper-CVPRW%202023-4b44ce.svg)](https://openaccess.thecvf.com/content/CVPR2023W/E2EAD/html/Naumann_Lanelet2_for_nuScenes_Enabling_Spatial_Semantic_Relationships_and_Diverse_Map-Based_CVPRW_2023_paper.html)
+<a href="https://pypi.org/project/lanelet2anchors/"><img src="https://img.shields.io/pypi/dw/lanelet2anchors"></a>
+[![PyPI](https://github.com/FelixHertlein/lanelet2anchors/actions/workflows/pypi_publish.yml/badge.svg)](https://github.com/FelixHertlein/lanelet2anchors/actions/workflows/pypi_publish.yml)
 
 # lanelet2anchors
 
