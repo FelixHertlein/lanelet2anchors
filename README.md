@@ -30,7 +30,7 @@ vehicle_pose = VehiclePose(
     x, y, psi, width, length  # define your values
 )
 anchors = lanelet_map.create_anchors_for_vehicle(
-    vehicle_pose=X,
+    vehicle_pose=vehicle_pose,
     anchor_length=100,
     num_anchors: 5,
 )
