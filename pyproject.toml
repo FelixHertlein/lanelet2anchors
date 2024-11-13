@@ -23,6 +23,7 @@ dependencies = [
   'networkx >= 2.8.8, < 3',
   'fastdtw >= 0.3.4, < 1',
   'scipy >= 1.10.1, < 2',
+  'numpy < 2'
 ]
 
 [project.optional-dependencies]
